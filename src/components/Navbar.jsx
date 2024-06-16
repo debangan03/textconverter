@@ -55,11 +55,11 @@ export default function Navbar(props) {
                 </Link>
               </li>
             </ul>
-            <form className="d-flex">
+            <div className="d-flex">
               {/* <input
                 value={text1}
                 onChange={handlechange}
-                className="form-control me-2"
+                className="div-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -72,9 +72,9 @@ export default function Navbar(props) {
                 <Link>Search</Link>
               </button> */}
               <i  onClick={props.togglemode}>
-                <div className="form-check form-switch">
+                <div className="div-check div-switch">
                   {/* <input
-                    className="form-check-input"
+                    className="div-check-input"
                     type="checkbox"
                     role="switch"
                     onClick={props.togglemode}
@@ -94,7 +94,7 @@ export default function Navbar(props) {
                   <i className="moon-stars"></i>
                 </div>
               </i>
-            </form>
+            </div>
           </div>
         </div>
       </nav>
